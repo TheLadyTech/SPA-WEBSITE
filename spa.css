@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Smooch&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap');
+</style
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-family:  'Lobster', cursive;
+    font-size: 40px;
+   font-weight: lighter;
+   margin-top: -50px;
+   margin-left: 15px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerabout{
+  background-color: lightgrey;
+  width: 100%;
+  background-position: center;
+  height: 450px;
+}
+nav ul a{
+    margin-right: 70px;
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    margin-top: -30px;
+    margin-right: 250px;
+}
+nav ul .home{
+    font-weight: bold;
+}
+.righthead{
+    margin-right: 40px;
+    display: flex;
+}
+.in{
+    margin-right: 30px;
+    margin-top: -25px;
+    font-weight: bold;
+}
+.fa-caret-down{
+    color: brown;
+}
+.rightbutton{
+    margin-top: -25px;
+}
+.rightbutton button{
+    margin-top: -20px;
+    color: brown; 
+    background-color: white;
+    width: 200px;
+    height: 25px;
+    border: 1px solid brown;
+    border-radius: 7px;
+    font-size: 10px;
+}
+.center img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-left: 600px;
+    margin-top: -400px;
+}
+.leftp{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: bolder;
+}
+main ul{
+    margin-top: -50px;
+    list-style: circle;
+}
+.leftbutton{
+    margin-left: 15px;
+}
+.leftbutton button{
+    background-color: brown;
+    color: white;
+    border: 1px solid brown;
+}
+.textright{
+    margin-left: 1000px;
+    margin-top: -250px;
+}
+.speak{
+    font-family: cursive;
+    color: brown;
+    margin-top: -15px;
+}
+.fa-quote-left{
+    font-size: 40px;
+    color: brown;
+    margin-left: 80px;
+}
+.star ul {
+    /* border: 1px solid red; */
+    margin-left: 1000px;
+    margin-top: 30px;
+    color: goldenrod;
+}
+.fa-star{
+    /* border: 1px solid yellow; */
+    margin-right: 7px;
+}
+.imgsecondset img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgsecondset{
+    border: 2px solid lightgray;
+    margin-left: 210px;
+    width: fit-content;
+    margin-top: -50px;
+    background-color: white;
+}
+.facials{
+    margin-left: 280px;
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin-top: -50px;
+}
+.body{
+    margin-left: 40px;
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin-left: 570px;
+    margin-top: -35px;
+}
+.sauna{
+    margin-left: 40px;
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin-left: 850px;
+    margin-top: -32px;
+}
+.whyus{
+    font-weight: bold;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+}
+.icons i{
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    position: relative;
+}
+.fa-diagram-successor{
+    margin-left: 120px;
+}
+.fa-box-archive{
+    margin-right: 150px;
+}
+.iconcap{
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+}
+.iconcap h3{
+    margin-right: 50px;
+    margin-top: -30px;
+}
+.easy{
+    margin-left: 65px;
+}
+.security{
+    margin-left: 20px;
+}
+.drink{
+    margin-left: 20px;
+}
+.booking{
+    margin-right: 70px;
+}
+.iconcap2{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -24px;
+    position: relative;
+}
+.location{
+    margin-left: 90px;
+}
+.personal{
+    margin-right: -10px;
+}
+.mini{
+    margin-right: -20px;
+}
+.make{
+    margin-right: 90px;
+}
+.iconcap2 p{
+    font-size: 15px;
+    position: relative;
+}
+.product{
+    width: 100%;
+    height: 250px;
+    background-color: lightgray;
+    margin-top: -3px;
+}
+.prod{
+    margin-left: 580px;
+    color: brown;
+    /* border: 1px solid red; */
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 20px;
+}
+.product h3{
+    font-family: 'lobster' ;
+    margin-left: 520px;
+    font-weight: lighter;
+    word-spacing: 3px;
+    margin-top: -10px;
+}
+.serum{
+    background-color: brown;
+    width: 500px;
+    height: 250px;
+    color: white;
+    font-size: 20px;
+    margin-left: 270px;
+    margin-top: -140px;
+}
+.serum h3{
+    margin-left: 25px;
+    padding-top: 20px;
+}
+.serumcap{
+    margin-left: 21px;
+}
+.serumimage img{
+    width: 250px;
+    height: 250px;
+    margin-left: 700px;
+    margin-top: -420px;
+    border: 1px solid red;
+}
+.serumimage{
+    margin-top: -13px;
+}
+.fiveimages img{
+       width: 110px;
+       height: 90px;
+       position: relative;
+}
+.fiveimages{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;
+    margin-top: 100px;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.cream{
+    margin-left: 50px;
+}
+.show{
+    margin-right: 50px;
+}
+.amazing{
+    /* border: 1px solid red; */
+    margin-top: -320px;
+    font-size: 35px;
+    margin-left: 300px;
+}
+.services{
+    margin-left: 70px;
+    margin-top: -43px;
+}
+.provide{
+    margin-left: 210px;
+    margin-top: -43px;
+}
+.notification{
+    /* border: 1px solid red; */
+    margin-left: 370px;
+    word-spacing: 3px;
+    margin-top: -60x;
+}
+.follow{
+    margin-top: -30px;
+    margin-left: 50px;
+}
+.update{
+    margin-top: -10px;
+    margin-left: 90px;
+}
+.almostfooter{
+    /* border: 1px solid green; */
+    margin-top: 100px;
+    margin-left: 250px;
+    word-spacing: 3px;
+}
+.started button{
+    margin-left: 800px;
+    border: 1px solid brown;
+    width: 150px;
+    height: 30px;
+    background-color: brown;
+    color: white;
+    border-radius: 7px;
+    margin-top: -40px;
+}
+.started{
+    margin-top: -40px;
+    margin-right: 80px;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+}
+.footer h3{
+    font-family: 'Lobster', cursive;
+    padding-top: 15px;
+    font-size: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid brown;
+    padding-left: 550px;
+}
+.headings{
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.arrival{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.news{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.faq{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.features .discount{
+    margin-left: 35px;
+    /* border: 1px solid red; */
+}
+.newss{
+/* border: 1px solid red; */
+margin-left: -20px;
+}
+.faq .careers{
+    /* border: 1px solid red; */
+    margin-left: -35px;
+}
+.faq p{
+    margin-right: -10px;
+}
+.whole{
+    border: 5px solid brown;
+}
+
+
